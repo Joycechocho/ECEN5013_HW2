@@ -21,9 +21,11 @@ void reverse_string(char *str){
 
 int main (int argc, const char *argv[]){
 
- char string[] = "foobar";
+ 
+ char string[] = "NUMbers12345";
  reverse_string(string);
- printf("%s\n", string);
+ printf("This is a string\n");
+ printf("After the string been reversed: %s\n", string);
 
  return 1;
 }
